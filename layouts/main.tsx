@@ -2,16 +2,17 @@ import Header from 'components/Header';
 
 import { Wrapper } from './styles';
 
-const Main = ({ children }) => {
+interface Main {
+  children: JSX.Element;
+}
+
+const Main = ({ children }: Main) => {
   return (
     <>
       <Header />
-      <Wrapper>
-        {children}
-      </Wrapper>
+      <Wrapper>{children}</Wrapper>
     </>
-  )
-}
+  );
+};
 
 export default Main;
-

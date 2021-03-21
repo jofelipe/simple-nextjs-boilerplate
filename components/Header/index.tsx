@@ -5,7 +5,7 @@ const Header = () => {
     <Wrapper>
       <p>Header</p>
     </Wrapper>
-  )
-}
+  );
+};
 
 export default Header;

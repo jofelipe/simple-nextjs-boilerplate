@@ -8,10 +8,12 @@ const Home = () => {
       <NextSeo title="Página inicial" />
 
       <Layout>
-        <h1>Welcome to <a href="https://nextjs.org">Next.js!</a></h1>
+        <h1>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        </h1>
       </Layout>
     </>
-  )
-}
+  );
+};
 
 export default Home;
